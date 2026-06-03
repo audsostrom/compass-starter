@@ -21,6 +21,8 @@ export class LongTermGoalsHeaderComponent implements OnInit {
   /** The current signed in user. */
   currentUser: Signal<User> = this.authStore.user;
 
+  pencilClick = output<void>();
+
   // --------------- LOCAL UI STATE ----------------------
 
   /** Loading icon. */
@@ -29,7 +31,7 @@ export class LongTermGoalsHeaderComponent implements OnInit {
   // --------------- COMPUTED DATA -----------------------
 
   // --------------- EVENT HANDLING ----------------------
-
+  
   // --------------- OTHER -------------------------------
 
   constructor(
