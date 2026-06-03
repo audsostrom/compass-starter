@@ -1,7 +1,24 @@
-:host {
-  display: block;
-  .long-term-goals-header-container {
-    // REMOVE WHEN FINISHING LAYOUT STYLES
-    border: 1px solid black;
+.long-term-goals-header-container {
+  background: white;
+  display: flex;
+  width: 100%;
+  .top-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 10px 0px 18px;
+    .card-title {
+      font-size: 28px;
+    }
+    .edit-button {
+      background: none;
+      border: none;
+      margin-left: auto;
+      .edit-icon {
+        width: 20px;
+        height: 20px;
+      }
+    }
   }
 }
